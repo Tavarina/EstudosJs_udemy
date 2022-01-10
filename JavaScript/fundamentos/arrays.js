@@ -13,3 +13,4 @@ delete valores [0]
 console.log(valores)
 
 console.log(typeof valores) // o arry é um objeto
+
