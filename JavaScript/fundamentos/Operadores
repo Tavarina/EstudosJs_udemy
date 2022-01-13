@@ -1,0 +1,22 @@
+v e v --> v (verdadeiro)     //operador binário com dois operando 
+v e f --> f (falso)   
+f e ? --> f
+
+
+//operador binário
+v ou ? --> v  
+f ou v --> v
+f ou f --> f
+
+op1 e op2 e op3 e op4 -> v 
+
+//operador binário
+v xor v -> f //xor* seria igualdade
+v or f -> v 
+f or v -> v
+f or f -> f
+
+//operador binário
+
+!v -> f
+!f -> v 
