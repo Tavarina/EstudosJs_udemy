@@ -27,5 +27,18 @@ const carro = {
     }, {
         nome: ' Liu',
         idade: 45
-    }]
+    }],
+    calcularValorSeguro: function() {
+        //...
+    }
 }
+carro.proprietario.endereco.numero = 1000
+carro['proprietario'] ['endereco'] ['longadouro'] = 'Av Gigante'
+console.log(carro)
+
+delete carro.condutores
+delete carro.proprietario.endereco
+delete carro.calcularValorSeguro
+console.log(carro)
+console.log(carro.condutores) //foi deletado, porém o resultado será underfined
+console.log(carro.condutores.length)
