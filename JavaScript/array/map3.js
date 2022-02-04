@@ -19,3 +19,5 @@ const paraObjeto = json => JSON.parse(json)
 const apenasPreco = produto => produto.preco
 const resultado = carrinho.map2(paraObjeto).map2(apenasPreco)
 console.log(resultado)
+
+//sempre que precisar transformar um array em outro array usar o map
