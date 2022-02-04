@@ -19,3 +19,5 @@ const caro = produto => produto.preco >= 500
 const fragil = produto => produto.fragil
 
 console.log(produtos.filter2(caro).filter2(fragil))
+
+//o filter filtra o que vc quer
