@@ -5,4 +5,15 @@ da quantidade de horas trabalhadas no mês multiplicada pelo valor da sua hora. 
 
 O retorno da função deve ser a string "Salário líquido é igual a R$ X", em que X é o salário líquido do funcionário
 no mês.
+
+Exemplos:
+calcularSalarioLiquido(180, 60) // retornará "Salário igual a R$ 7560"
 */
+
+function calcularSalarioLiquido(horasTrabalhadas, ganhosPorHora) {
+    const salarioBruto = horasTrabalhadas * ganhosPorHora
+    const salarioLiquido = salarioBruto - salarioBruto * 30/100
+
+    return `Salário igual a R$  ${salarioLiquido}`
+}
+console.log(calcularSalarioLiquido(180, 60))
