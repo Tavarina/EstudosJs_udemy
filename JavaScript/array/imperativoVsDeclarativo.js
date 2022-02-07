@@ -24,3 +24,4 @@ console.log(total2 / alunos.length)
 
 //Resultatdo: 8.55
 
+// select codigo, nome, email from clientes where ativo = 1
