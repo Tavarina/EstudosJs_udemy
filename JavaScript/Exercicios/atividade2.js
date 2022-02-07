@@ -5,7 +5,7 @@ const idadeEmAnos = 25
 function converterIdadeEmAnosParaDias(idadeEmAnos) {
     const diasDoAno = 365
     return diasDoAno * idadeEmAnos
-}
+} //verificar
 
 /* Exemplos:
 converterIdadeEmAnosParaDias(25) // retornará 9125
