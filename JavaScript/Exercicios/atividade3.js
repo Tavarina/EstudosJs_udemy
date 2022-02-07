@@ -17,3 +17,10 @@ function calcularSalarioLiquido(horasTrabalhadas, ganhosPorHora) {
     return `Salário igual a R$  ${salarioLiquido}`
 }
 console.log(calcularSalarioLiquido(180, 60))
+
+/* Resolução:
+function calcularSalarioLiquido(horasTrabalhadas, ganhoPorHora) {
+const salarioBruto = horasTrabalhadas * ganhoPorHora
+const salarioLiquido = salarioBruto - salarioBruto * 30/100
+return `Salário igual a R$ ${salarioLiquido}`
+}*/
