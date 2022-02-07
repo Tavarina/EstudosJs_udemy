@@ -1,3 +1,6 @@
+//O reduce tem como objetivo reduzir e agregar os valores em um só
+
+
 Array.prototype.reduce2 = function(callback, valorInicial) {
     const indiceInicial = valorInicial ? 0 : 1
     let acumulador = valorInicial || this[0]
